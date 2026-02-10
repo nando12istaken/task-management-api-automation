@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Task Management API Suite">
+
+    <test name="Auth Tests">
+        <packages>
+            <package name="tests.auth"/>
+        </packages>
+    </test>
+
+    <test name="Task Tests">
+        <packages>
+            <package name="tests.tasks"/>
+        </packages>
+    </test>
+
+</suite>
